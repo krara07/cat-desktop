@@ -93,10 +93,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(107, 179, 255);
-border-style: solid;
-border-color: #0044ff;
-border-width: 3px;</string>
+     <string notr="true">background-color: rgb(107, 179, 255);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -108,9 +105,9 @@ border-width: 3px;</string>
      <property name="geometry">
       <rect>
        <x>90</x>
-       <y>40</y>
+       <y>30</y>
        <width>151</width>
-       <height>41</height>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -134,31 +131,32 @@ background-color: none;</string>
       <set>Qt::AlignCenter</set>
      </property>
     </widget>
-    <widget class="QLabel" name="label_4">
+    <widget class="QPushButton" name="pushButton_2">
      <property name="geometry">
       <rect>
-       <x>10</x>
-       <y>10</y>
-       <width>101</width>
-       <height>101</height>
+       <x>20</x>
+       <y>20</y>
+       <width>81</width>
+       <height>71</height>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">border: none;
-background-color: none;</string>
+      <string notr="true"/>
      </property>
      <property name="text">
       <string/>
      </property>
-     <property name="pixmap">
-      <pixmap>../images/cat logo2.png</pixmap>
+     <property name="icon">
+      <iconset>
+       <normaloff>../images/cat logo2.png</normaloff>../images/cat logo2.png</iconset>
      </property>
-     <property name="scaledContents">
-      <bool>true</bool>
+     <property name="iconSize">
+      <size>
+       <width>70</width>
+       <height>70</height>
+      </size>
      </property>
     </widget>
-    <zorder>label_4</zorder>
-    <zorder>label_5</zorder>
    </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
