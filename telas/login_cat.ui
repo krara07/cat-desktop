@@ -245,6 +245,11 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
+ <tabstops>
+  <tabstop>lineUser</tabstop>
+  <tabstop>linePass</tabstop>
+  <tabstop>bt_logar</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>

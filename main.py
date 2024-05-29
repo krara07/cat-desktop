@@ -16,6 +16,9 @@ import time
 from datetime import datetime
 import threading
 import PyInstaller.__main__
+import requests
+from bs4 import BeautifulSoup
+from googleapiclient.discovery import build
 
 app = QtWidgets.QApplication([])
 # conexão com banco de dados
@@ -26,6 +29,13 @@ banco = mysql.connector.connect(
     password = '123456',
     database = 'cat_treinee'
 )
+
+# google search
+api_key = "AIzaSyAHuFEjZ8bNx9jPmKp5rMd9lVs3xRqqluk"
+cse_id = f"5049fa9938f704a81"
+query = "a decidir"
+
+
 
 # declaração das telas
 cadastros = uic.loadUi('telas\cadastros.ui')

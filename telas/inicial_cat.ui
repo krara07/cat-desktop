@@ -223,6 +223,11 @@ color: #ffffff;</string>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
+ <tabstops>
+  <tabstop>bt_cadastros</tabstop>
+  <tabstop>bt_cat</tabstop>
+  <tabstop>bt_consul</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>
