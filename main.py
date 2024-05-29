@@ -26,3 +26,13 @@ banco = mysql.connector.connect(
     password = '123456',
     database = 'cat_treinee'
 )
+
+# declaração das telas
+cadastros = uic.loadUi('telas\cadastros.ui')
+inicial = uic.loadUi('telas\inicial_cat.ui')
+login = uic.loadUi('telas\login_cat.ui')
+
+
+# iniciar aplicativo
+login.show()
+app.exec_()

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>872</width>
-    <height>612</height>
+    <width>995</width>
+    <height>670</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,8 +20,8 @@
    <widget class="QPushButton" name="bt_consul">
     <property name="geometry">
      <rect>
-      <x>620</x>
-      <y>390</y>
+      <x>680</x>
+      <y>470</y>
       <width>191</width>
       <height>61</height>
      </rect>
@@ -42,8 +42,8 @@
    <widget class="QPushButton" name="bt_cadastros">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>390</y>
+      <x>120</x>
+      <y>470</y>
       <width>191</width>
       <height>61</height>
      </rect>
@@ -64,8 +64,8 @@
    <widget class="QPushButton" name="bt_cat">
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>390</y>
+      <x>400</x>
+      <y>470</y>
       <width>191</width>
       <height>61</height>
      </rect>
@@ -101,68 +101,63 @@
     <property name="frameShadow">
      <enum>QFrame::Raised</enum>
     </property>
-    <widget class="QLabel" name="label_5">
+    <widget class="QLabel" name="label_4">
      <property name="geometry">
       <rect>
-       <x>90</x>
-       <y>30</y>
-       <width>151</width>
-       <height>51</height>
+       <x>10</x>
+       <y>20</y>
+       <width>211</width>
+       <height>81</height>
       </rect>
      </property>
      <property name="font">
       <font>
        <family>Arial</family>
-       <pointsize>14</pointsize>
+       <pointsize>20</pointsize>
        <weight>75</weight>
        <italic>true</italic>
        <bold>true</bold>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">color: white;
-border: none;
-background-color: none;</string>
+      <string notr="true">border: none;
+color: #ffffff;</string>
      </property>
      <property name="text">
-      <string>Cats Treinee</string>
+      <string>CAT Treinee</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_2">
+    <widget class="QLabel" name="label_7">
      <property name="geometry">
       <rect>
-       <x>20</x>
-       <y>20</y>
-       <width>81</width>
-       <height>71</height>
+       <x>900</x>
+       <y>10</y>
+       <width>101</width>
+       <height>101</height>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true"/>
+      <string notr="true">border: none;</string>
      </property>
      <property name="text">
       <string/>
      </property>
-     <property name="icon">
-      <iconset>
-       <normaloff>../images/cat logo2.png</normaloff>../images/cat logo2.png</iconset>
+     <property name="pixmap">
+      <pixmap>../images/cat_logo-removed.png</pixmap>
      </property>
-     <property name="iconSize">
-      <size>
-       <width>70</width>
-       <height>70</height>
-      </size>
+     <property name="scaledContents">
+      <bool>true</bool>
      </property>
     </widget>
    </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>230</y>
+      <x>160</x>
+      <y>270</y>
       <width>111</width>
       <height>101</height>
      </rect>
@@ -180,8 +175,8 @@ background-color: none;</string>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>660</x>
-      <y>230</y>
+      <x>720</x>
+      <y>270</y>
       <width>111</width>
       <height>101</height>
      </rect>
@@ -199,8 +194,8 @@ background-color: none;</string>
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>380</x>
-      <y>230</y>
+      <x>440</x>
+      <y>270</y>
       <width>111</width>
       <height>101</height>
      </rect>
@@ -221,7 +216,7 @@ background-color: none;</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>872</width>
+     <width>995</width>
      <height>21</height>
     </rect>
    </property>
