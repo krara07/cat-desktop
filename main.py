@@ -35,13 +35,10 @@ api_key = "AIzaSyAHuFEjZ8bNx9jPmKp5rMd9lVs3xRqqluk"
 cse_id = f"5049fa9938f704a81"
 query = "a decidir"
 
-
-
 # declaração das telas
 cadastros = uic.loadUi('telas\cadastros.ui')
 inicial = uic.loadUi('telas\inicial_cat.ui')
 login = uic.loadUi('telas\login_cat.ui')
-
 
 # iniciar aplicativo
 login.show()
